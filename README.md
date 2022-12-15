@@ -10,25 +10,15 @@ We first simulate an urbanization and then define a genetic algorithm to look fo
 -an urbanization consists in changing the land use of a plot of land to urban one
 -compensations consists in changing the LU of one or more plot of lands 
 
-Directories: 
-COMMUNES : directory containing original raster files, the matrix files (saved as numpy arrays), crops shapes etc...
-communes also contains CROPSBYLU (crops classified by main LU) and CROPSBYSIZE (same size, same or different shape)
-RESULTS: directory where qll
-
 
 PRELIMINARY PROGRAMS
 -get_id: given the matrix of LU and the crops, creates a matrix with crops ID 
--class_crops: 
-class crops of a given town according to heir main LU (>85%)
-select crops of the same size and same or different shape
--crop_functions: functions for the crop classification
--readcroplist: for a given array of crops, it prints some info
+-crop_functions: functions for the classification of plots of land
 
 MAIN PROGRAMS
--Main: main file contqining the genetic algorithm to define a compensation
+-main: main file contqining the genetic algorithm to define a compensation
 -simulate_landscapeOPT: contains urbanization and compensation functions
 -MetricFunctions: computes the indexes
-
 -evaluateOPT: all the functions to compute de DELTAs of the lanscape metrics indexes 
 	and the fitness functions related to the different policies
 
