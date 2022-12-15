@@ -1,0 +1,2 @@
+# SpatialModelForBiodiversityOffsetting
+Genetich Algorith to simulate biodiversity offsetting
